@@ -1,19 +1,20 @@
 import React, { useState } from 'react'
+import LoginBanner from '../Banner/LoginBanner'
 
-function Login() {
+function Login({handleLogin}) {
      
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     const submitHandler = (e) => {
         e.preventDefault()
-        console.log("email is", email)
-        console.log("password is", password)
+        handleLogin(email,password)
         setEmail("")
         setPassword("")
     } 
   return (
-    <div className='flex h-screen w-screen items-center justify-center'>
+    <div className='flex flex-col h-screen w-screen items-center justify-center'>
+      <LoginBanner />
           <div className='border-2 border-custom-blue rounded-md drop-shadow-xl shadow-white-500/40 p-20'>
               <form onSubmit={(e) => {
                   submitHandler(e)

@@ -1,0 +1,224 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "email": "s@s.com",
+      "name": "Sarthak",
+      "password": "123",
+      "taskCounts":[{
+        "active": 1,
+          "new": 2,
+          "completed": 2,
+          "failed": 1
+      }],
+      "tasks": [
+        {
+          "title": "Prepare Report",
+          "description": "Prepare the monthly sales report.",
+          "date": "2024-12-20",
+          "category": "Sales",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Team Meeting",
+          "description": "Attend the weekly team meeting.",
+          "date": "2024-12-21",
+          "category": "Meetings",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Update CRM",
+          "description": "Update client details in CRM.",
+          "date": "2024-12-22",
+          "category": "CRM",
+          "active": true,
+          "new": false,
+          "completed": true,
+          "failed": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "email": "e@e.com",
+      "name": "Sneha",
+      "password": "123",
+      "taskCounts":[{
+        "active": 1,
+          "new": 2,
+          "completed": 2,
+          "failed": 1
+      }],
+      "tasks": [
+        {
+          "title": "Market Analysis",
+          "description": "Research the latest market trends.",
+          "date": "2024-12-18",
+          "category": "Research",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Client Presentation",
+          "description": "Prepare slides for client meeting.",
+          "date": "2024-12-19",
+          "category": "Presentation",
+          "active": false,
+          "new": true,
+          "completed": false,
+          "failed": true
+        },
+        {
+          "title": "Email Campaign",
+          "description": "Draft and send out the holiday email campaign.",
+          "date": "2024-12-20",
+          "category": "Marketing",
+          "active": true,
+          "new": false,
+          "completed": true,
+          "failed": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "email": "employee3@example.com",
+      "name": "Ashish",
+      "password": "123",
+      "taskCounts":[{
+        "active": 1,
+          "new": 2,
+          "completed": 2,
+          "failed": 1
+      }],
+      "tasks": [
+        {
+          "title": "Code Review",
+          "description": "Review pull requests from team members.",
+          "date": "2024-12-15",
+          "category": "Development",
+          "active": false,
+          "new": false,
+          "completed": true,
+          "failed": false
+        },
+        {
+          "title": "Fix Bugs",
+          "description": "Resolve bugs from the issue tracker.",
+          "date": "2024-12-16",
+          "category": "Debugging",
+          "active": true,
+          "new": false,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Deploy Update",
+          "description": "Deploy the latest updates to the production server.",
+          "date": "2024-12-17",
+          "category": "Deployment",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "email": "employee4@example.com",
+      "name": "Saloni",
+      "password": "123",
+      "taskCounts":[{
+        "active": 1,
+          "new": 2,
+          "completed": 2,
+          "failed": 1
+      }],
+      "tasks": [
+        {
+          "title": "Inventory Check",
+          "description": "Check and update the inventory records.",
+          "date": "2024-12-14",
+          "category": "Inventory",
+          "active": true,
+          "new": false,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Supplier Meeting",
+          "description": "Meet with suppliers to negotiate contracts.",
+          "date": "2024-12-15",
+          "category": "Negotiation",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Warehouse Inspection",
+          "description": "Inspect the warehouse for safety compliance.",
+          "date": "2024-12-16",
+          "category": "Compliance",
+          "active": true,
+          "new": false,
+          "completed": true,
+          "failed": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "email": "employee5@example.com",
+      "name": "Arjun",
+      "password": "123",
+      "taskCounts":[{
+        "active": 1,
+          "new": 2,
+          "completed": 2,
+          "failed": 1
+      }],
+      "tasks": [
+        {
+          "title": "Design Mockups",
+          "description": "Create mockups for the new project.",
+          "date": "2024-12-20",
+          "category": "Design",
+          "active": true,
+          "new": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Team Training",
+          "description": "Conduct training sessions for new hires.",
+          "date": "2024-12-21",
+          "category": "Training",
+          "active": true,
+          "new": false,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Client Feedback",
+          "description": "Analyze feedback received from the latest survey.",
+          "date": "2024-12-22",
+          "category": "Feedback",
+          "active": true,
+          "new": false,
+          "completed": true,
+          "failed": false
+        }
+      ]
+    }
+  ]
+}

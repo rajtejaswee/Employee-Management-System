@@ -4,13 +4,13 @@ import Tasks from '../Tasks/Tasks'
 import Taskcarosals from '../Tasks/Taskcarosals'
 import EmployeeBanner from '../Banner/EmployeeBanner'
 
-const EmployeeDashboard = () => {
+const EmployeeDashboard = ({data}) => {
   return (
     <div className='p-7 h-screen '>
-          <Header />
+          <Header data={data} />
           <EmployeeBanner />
-          <Tasks />
-          <Taskcarosals />
+          <Tasks data={data}/>
+          <Taskcarosals data={data}/>
     </div>
   )
 }

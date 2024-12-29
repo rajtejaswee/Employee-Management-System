@@ -4,10 +4,10 @@ import Form from '../Form/Form'
 import AdminBanner from '../Banner/AdminBanner'
 import AllTask from '../Tasks/AllTask'
 
-const AdminDashboard = () => {
+const AdminDashboard = ({data}) => {
   return (
     <div className='h-screen p-7'>
-          <Header />
+          <Header data={data} />
           <AdminBanner />
           <Form />
           <AllTask />
